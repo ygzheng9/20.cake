@@ -1,0 +1,98 @@
+#define metis()
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>METIS</title>
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon"/>
+
+    <link rel="stylesheet" href="/assets/lib/bulma/css/bulma.min.css">
+
+    <script type="text/javascript" src="/assets/lib/jquery-3.4.1.min.js"></script>
+
+    <script src="/assets/js/bundle.js"></script>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .turbolinks-progress-bar {
+            height: 2px;
+            background-color: green;
+        }
+
+        .outer {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        img {
+            width: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+
+        .xbutton {
+            width: 20px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            background-color: gray;
+            opacity: 0.1;
+            position: absolute;
+            top: 0;
+            /*margin-top: 350px;*/
+            font-size: 20px;
+            font-weight: bolder;
+            display: block;
+            cursor: pointer;
+        }
+
+        .xbutton:hover {
+            opacity: 0.6;
+        }
+
+        .btn_right {
+            position: absolute;
+            right: 0px;
+        }
+
+        #xtitle {
+            color: #2C3557;
+            padding-top: 10px;
+            margin-left: 120px;
+            margin-right: 120px;
+            margin-bottom: 0px;
+            font-size: 2.5em;
+            font-weight: 900;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="turbolinks-progress-bar"></div>
+
+<div class="outer">
+    #@main()
+
+    <div class="btn_left xbutton"><a href="/metis?p=#(prev)"> <</a></div>
+    <div class="btn_right xbutton"><a href="/metis?p=#(next)"> ></a></div>
+</div>
+
+#@js?()
+</body>
+
+</html>
+
+#end
