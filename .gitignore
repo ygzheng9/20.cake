@@ -38,3 +38,6 @@ src/main/webapp/zdata/local/*.*
 
 src/main/webapp/assets/js/
 src/main/webapp/assets/lib/
+
+src/main/webapp/assets/videos/
+src/main/webapp/assets/data/
